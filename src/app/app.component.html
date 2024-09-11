@@ -13,9 +13,6 @@
                     <a class="nav-link active" aria-current="page" routerLink="/new-Event">Create Event</a>
                 </li>
                 <li class="nav-item" *ngIf="loggedUserData?.role == 'Event Planner'" >
-                    <a class="nav-link active" aria-current="page" routerLink="/Event-List">Events </a>
-                </li>
-                <li class="nav-item" *ngIf="loggedUserData?.role == 'Event Planner'" >
                     <a class="nav-link active" aria-current="page" routerLink="/event-bookings">Bookings </a>
                 </li>
                 <li class="nav-item" *ngIf="loggedUserData?.role == 'Customer'" >
